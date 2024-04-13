@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.spin-squeeze {
+  animation: spin-squeeze 5s linear infinite;
+}
+
+.spin-squeeze:hover {
+  animation-play-state: paused;
+}
+
+@keyframes spin-squeeze {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  5% {
+    transform: scale(0.9) rotate(45deg);
+  }
+  20% {
+    transform: scale(1) rotate(90deg);
+  }
+  35% {
+    transform: scale(0.9) rotate(135deg);
+  }
+  50% {
+    transform: scale(1) rotate(180deg);
+  }
+  65% {
+    transform: scale(0.9) rotate(225deg);
+  }
+  80% {
+    transform: scale(1) rotate(270deg);
+  }
+  95% {
+    transform: scale(0.9) rotate(315deg);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 20px 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  animation: 20s slide infinite linear;
+}
