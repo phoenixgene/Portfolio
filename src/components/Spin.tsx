@@ -1,14 +1,13 @@
 type SpinProps = {
   style?: string;
   src: string;
+  size?: string;
 };
 
-const Spin: React.FC<SpinProps> = ({ src, style }) => {
+const Spin: React.FC<SpinProps> = ({ src, style, size }) => {
   return (
-    <div className="relative w-20 h-20">
-      <div className="absolute inset-0 flex items-center justify-center">
-        <img className={`${style} spin-squeeze`} src={src} />
-      </div>
+    <div className={`${style}`}>
+      <img className="spin-squeeze" height={size} width={size} src={src} />
     </div>
   );
 };

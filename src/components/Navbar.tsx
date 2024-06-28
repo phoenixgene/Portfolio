@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="z-10 fixed border-b-[1px] border-black bg-white top-0 w-full h-[80px] md:px-[20px] lg:px-[150px] lg:h-[100px] ">
+      <nav className="z-10 fixed top-0 border-b-[1px] border-black bg-white  w-full h-[80px] md:px-[20px] lg:px-[150px] lg:h-[100px] ">
         <div className="flex items-center justify-between px-[20px]  h-[80px] lg:h-[100px] lg:border-x-[1px] lg:border-black">
           <div>
             <Logo />

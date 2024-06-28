@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <section>
-      <img src="/assets/Copyright.svg" />
+    <section className="flex justify-center items-center h-[80px]">
+      <img src="/assets/Copyright.svg" width="20px" height="20px" />
       <p>
         Eugene Shokare - <span>All rights resrved</span>
       </p>

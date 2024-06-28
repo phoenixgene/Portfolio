@@ -14,9 +14,7 @@ const Home = () => {
       <section>
         <Navbar />
       </section>
-      <section>
-        <Sidebar target={mainRef} />
-      </section>
+      <Sidebar target={mainRef} />
       <section id="section1">
         <Herosection />
       </section>
@@ -37,3 +35,5 @@ const Home = () => {
 };
 
 export default Home;
+
+//className={`${darkMode && "dark"}`}

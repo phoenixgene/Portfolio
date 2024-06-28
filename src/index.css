@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* spining svg */
 .spin-squeeze {
   animation: spin-squeeze 5s linear infinite;
 }
@@ -49,6 +50,7 @@
   }
 }
 
+/* carousel */
 .logos {
   overflow: hidden;
   padding: 20px 0;
@@ -62,4 +64,39 @@
 
 .logos-slide {
   animation: 20s slide infinite linear;
+}
+
+/* custom cursor */
+body:hover > #trailer {
+  opacity: 1;
+}
+
+#trailer {
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 20px;
+
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 10000;
+
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 500ms ease;
+
+  display: grid;
+  place-items: center;
+}
+
+#trailer:not([data-type=""]) > #trailer-icon {
+  opacity: 1;
+}
+
+#trailer-icon {
+  font-size: 6px;
+  line-height: 4px;
+  opacity: 0;
+  transition: opacity 400ms ease;
 }
