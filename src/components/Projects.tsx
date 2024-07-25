@@ -14,36 +14,36 @@ const Projects = () => {
           </div>
           <div className="grid gap-[20px]">
             <Project
-              to="https://www.youtube.com/"
-              src="/assets/projectimgtest.png"
+              to="https://gudetama.vercel.app/"
+              src="/assets/gudetama.png"
               title="Gudetama"
-              about="Lorem ipsum dolor sit amet consectetur. Porttitor elit maecenas amet viverra ullamcorper pellentesque proin orci. Sed pellentesque in accumsan lacus ligula tellus auctor ornare. Sodales non amet orci quis."
+              about="Gudetama ($GUDETAMA) is a community-focused, decentralized cryptocurrency with instant rewards thanks to active users!"
               stack1="HTML"
               stack2="CSS"
               stack3="REACT"
             />
             <Project
               to="youtube.com"
-              src="/assets/projectimgtest.png"
-              title="project1"
-              about="Lorem ipsum dolor sit amet consectetur. Porttitor elit maecenas amet viverra ullamcorper pellentesque proin orci. Sed pellentesque in accumsan lacus ligula tellus auctor ornare. Sodales non amet orci quis."
+              src="/assets/fronstat.png"
+              title="Fronstat"
+              about="Fronstat Industries is dedicated to recycling and environmental stewardship, promoting sustainable practices to protect our planet."
               stack1="HTML"
               stack2="CSS"
               stack3="REACT"
             />
             <Project
               to="https://dev-eugeneflower.pantheonsite.io/"
-              src="/assets/projectimgtest.png"
+              src="/assets/eugeneflower.png"
               title="Eugenes Decor"
-              about="Lorem ipsum dolor sit amet consectetur. Porttitor elit maecenas amet viverra ullamcorper pellentesque proin orci. Sed pellentesque in accumsan lacus ligula tellus auctor ornare. Sodales non amet orci quis."
+              about="An elegant e-commerce site for home decoration products, focusing on a user-friendly interface and beautiful design to inspire and delight customers."
               stack1="WORDPRESS"
               stack2="ELEMENTOR"
             />
             <Project
               to="https://dev-eugenewears.pantheonsite.io/"
-              src="/assets/projectimgtest.png"
+              src="/assets/clotheshop.png"
               title="Eugene Wears"
-              about="Lorem ipsum dolor sit amet consectetur. Porttitor elit maecenas amet viverra ullamcorper pellentesque proin orci. Sed pellentesque in accumsan lacus ligula tellus auctor ornare. Sodales non amet orci quis."
+              about="A modern and stylish e-commerce platform for clothing, designed to provide a seamless shopping experience with intuitive navigation and appealing visuals."
               stack1="WORDPRESS"
               stack2="ELEMENTOR"
             />
