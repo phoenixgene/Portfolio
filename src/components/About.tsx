@@ -13,12 +13,16 @@ const About = () => {
           </div>
           <div className="space-y-[20px]  lg:flex lg:justify-center lg:items-center lg:flex-row-reverse">
             <img src="/assets/eugene.png" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Porttitor elit maecenas
-              amet viverra ullamcorper pellentesque proin orci. Sed pellentesque
-              in accumsan lacus ligula tellus auctor ornare. Sodales non amet
-              orci quis. Facilisis blandit gravida commodo turpis nulla ipsum
-              sit.
+            <p className="text-[16px] font-semibold ">
+              Hello! <br />
+              I'm Eugene a passionate frontend developer with a keen eye for
+              detail and a drive to create seamless, user-friendly web
+              experiences. My expertise in HTML, CSS, and JavaScript allows me
+              to transform complex concepts into intuitive interfaces. I am
+              dedicated to delivering high-quality work and staying up-to-date
+              with the latest industry trends. Ready to collaborate and bring
+              innovative projects to life, let's build something amazing
+              together!
             </p>
           </div>
         </div>

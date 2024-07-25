@@ -12,34 +12,40 @@ const Projects = () => {
               Recent Projects
             </h1>
           </div>
-          <div className="space-y-[20px]">
+          <div className="grid gap-[20px]">
             <Project
-              to="/"
+              to="https://www.youtube.com/"
               src="/assets/projectimgtest.png"
-              title="project1"
+              title="Gudetama"
               about="Lorem ipsum dolor sit amet consectetur. Porttitor elit maecenas amet viverra ullamcorper pellentesque proin orci. Sed pellentesque in accumsan lacus ligula tellus auctor ornare. Sodales non amet orci quis."
-              stack1="html"
-              stack2="css"
-              stack3="react"
-              stack4="testing"
+              stack1="HTML"
+              stack2="CSS"
+              stack3="REACT"
             />
             <Project
-              to="/"
+              to="youtube.com"
               src="/assets/projectimgtest.png"
               title="project1"
               about="Lorem ipsum dolor sit amet consectetur. Porttitor elit maecenas amet viverra ullamcorper pellentesque proin orci. Sed pellentesque in accumsan lacus ligula tellus auctor ornare. Sodales non amet orci quis."
-              stack1="html"
-              stack2="css"
-              stack3="react"
+              stack1="HTML"
+              stack2="CSS"
+              stack3="REACT"
             />
             <Project
-              to="/"
+              to="https://dev-eugeneflower.pantheonsite.io/"
               src="/assets/projectimgtest.png"
-              title="project1"
+              title="Eugenes Decor"
               about="Lorem ipsum dolor sit amet consectetur. Porttitor elit maecenas amet viverra ullamcorper pellentesque proin orci. Sed pellentesque in accumsan lacus ligula tellus auctor ornare. Sodales non amet orci quis."
-              stack1="html"
-              stack2="css"
-              stack3="react"
+              stack1="WORDPRESS"
+              stack2="ELEMENTOR"
+            />
+            <Project
+              to="https://dev-eugenewears.pantheonsite.io/"
+              src="/assets/projectimgtest.png"
+              title="Eugene Wears"
+              about="Lorem ipsum dolor sit amet consectetur. Porttitor elit maecenas amet viverra ullamcorper pellentesque proin orci. Sed pellentesque in accumsan lacus ligula tellus auctor ornare. Sodales non amet orci quis."
+              stack1="WORDPRESS"
+              stack2="ELEMENTOR"
             />
           </div>
         </div>

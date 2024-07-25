@@ -14,20 +14,15 @@ const Caurosel = () => {
         <p>-</p>
         <Slideimg text="TYPESCRIPT" />
         <p>-</p>
-        <Slideimg text="HTML" />
+        <Slideimg text="WORDPRESS" />
         <p>-</p>
-        <Slideimg text="HTML" />
+        <Slideimg text="ELEMENTOR" />
         <p>-</p>
-        <Slideimg text="HTML" />
+        <Slideimg text="DIVI" />
         <p>-</p>
-        <Slideimg text="HTML" />
+        <Slideimg text="PROBLEM SOLVING" />
         <p>-</p>
-        <Slideimg text="HTML" />
-        <p>-</p>
-        <Slideimg text="HTML" />
-        <p>-</p>
-        <Slideimg text="HTML" />
-        <p>-</p>
+        <Slideimg text="SASS" />
       </div>
     </div>
   );
