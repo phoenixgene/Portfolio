@@ -29,10 +29,10 @@ const Project: React.FC<ProjectProps> = ({
     <Link to={to}>
       <div className="flex justify-center items-center border border-black p-[20px] space-y-[20px] h-[500px] lg:space-x-[20px] lg:h-[200px] lg:w-[900px]">
         <div className="space-y-[20px] lg:space-y-[0] lg:flex lg:items-center lg:space-x-[20px]">
-          <div className="flex justify-center items-center lg:w-[40%] border">
-            <img src={src} />
+          <div className="flex justify-center items-center lg:w-[30%]">
+            <img src={src} width="auto" height="auto" />
           </div>
-          <div className="border lg:w[60%]">
+          <div className=" lg:w-[70%] ">
             <div className="space-y-[10px]">
               <h1 className="text-[24px] font-semibold">{title}</h1>
               <p className="text-gray-700">{about}</p>
