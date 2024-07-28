@@ -4,7 +4,7 @@ import Spin from "./Spin";
 const Herosection = () => {
   return (
     <section className="h-screen flex justify-center items-center px-[20px] pt-[50px] mt[80px] lg:pt-[0px]  lg:mt-[100px] lg:px-[150px]">
-      <div className="h-full lg:border-x-[1px] lg:border-black w-full flex justify-center items-center">
+      <div className="h-full w-full max-w-[1440px] mx-auto lg:border-x-[1px] lg:border-black w-full flex justify-center items-center">
         <div className="text-center w-full space-y-[20px] lg:pb-[50px]">
           <div>
             <h1 className="text-[40px] font-semibold lg:text-[70px] lg:font-semibold">

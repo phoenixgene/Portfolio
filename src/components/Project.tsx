@@ -26,11 +26,8 @@ const Project: React.FC<ProjectProps> = ({
   stack6,
 }) => {
   return (
-    <Link
-      to={to}
-      className="flex justify-center items-center border border-black"
-    >
-      <div className="interactable p-[20px] space-y-[20px] w-[450px] h-[500px] lg:space-x-[20px] lg:h-[200px] lg:w-[900px]">
+    <Link to={to}>
+      <div className="flex justify-center items-center border border-black p-[20px] space-y-[20px] h-[500px] lg:space-x-[20px] lg:h-[200px] lg:w-[900px]">
         <div className="space-y-[20px] lg:space-y-[0] lg:flex lg:items-center lg:space-x-[20px]">
           <div className="flex justify-center items-center lg:w-[40%] border">
             <img src={src} />

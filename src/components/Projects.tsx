@@ -4,7 +4,7 @@ import Spin from "./Spin";
 const Projects = () => {
   return (
     <section className="w-full px-[20px] lg:px-[150px] border-b-[1px] border-black">
-      <div className=" flex justify-center items-center py-[50px] lg:border-x-[1px] lg:border-black lg:px-[20px]">
+      <div className=" flex justify-center items-center py-[50px] w-full max-w-[1440px] mx-auto lg:border-x-[1px] lg:border-black lg:px-[20px]">
         <div className="space-y-[20px] lg:space-y-[50px]">
           <div className="flex justify-center items-center space-x-[10px]">
             <Spin src="/assets/star.svg" size="30px" />

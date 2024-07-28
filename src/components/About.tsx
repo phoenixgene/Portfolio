@@ -3,7 +3,7 @@ import Spin from "./Spin";
 const About = () => {
   return (
     <section className="w-full px-[20px] border-b-[1px] border-black lg:border-none  lg:px-[150px]">
-      <div className="lg:border-x-[1px] lg:border-black lg:border-b-[1px] lg:px-[20px]">
+      <div className=" w-full max-w-[1440px] mx-auto lg:border-x-[1px] lg:border-black lg:border-b-[1px] lg:px-[20px]">
         <div className="py-[50px] space-y-[30px] lg:space-y-[50px]">
           <div className="flex items-center space-x-[10px]">
             <Spin src="/assets/star.svg" size="30px" />
