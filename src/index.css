@@ -67,7 +67,7 @@
 }
 
 /* custom cursor */
-body:hover > #trailer {
+/* body:hover > #trailer {
   opacity: 1;
 }
 
@@ -99,4 +99,4 @@ body:hover > #trailer {
   line-height: 4px;
   opacity: 0;
   transition: opacity 400ms ease;
-}
+} */
