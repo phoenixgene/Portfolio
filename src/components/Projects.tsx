@@ -22,7 +22,7 @@ const Projects = () => {
               stack2="CSS"
               stack3="REACT"
             />
-            <Project
+            {/* <Project
               to="youtube.com"
               src="/assets/fronstat.png"
               title="Fronstat"
@@ -30,7 +30,7 @@ const Projects = () => {
               stack1="HTML"
               stack2="CSS"
               stack3="REACT"
-            />
+            /> */}
             <Project
               to="https://dev-eugeneflower.pantheonsite.io/"
               src="/assets/eugeneflower.png"
