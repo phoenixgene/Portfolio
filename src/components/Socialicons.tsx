@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 type IconType = {
   src: string;
   to: string;
-  size: string;
+  size?: string;
 };
 
 const Socialicons: React.FC<IconType> = ({ src, to, size }) => {
