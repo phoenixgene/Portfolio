@@ -22,7 +22,10 @@ const Navbar = () => {
             <Navlinks />
           </section>
           <div className="hidden lg:block">
-            <Button to="/" text="Resume" />
+            <Button
+              to="https://drive.google.com/file/d/1ITWjjvKRymPBdsBfIsxAGaiPYNTLPDyW/view?usp=sharing"
+              text="Resume"
+            />
           </div>
           <div
             onClick={handleClick}
